@@ -1,7 +1,6 @@
 package com.ing.carapp.entity;
 
 import lombok.*;
-import org.springframework.data.mongodb.core.mapping.Document;
 
 @Getter
 @Setter

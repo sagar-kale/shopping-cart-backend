@@ -1,0 +1,10 @@
+---
+applications:
+  - name: shopping-cart-backend
+    memory: 1G
+    path : target\car-app-1.0.jar
+    instances: 1
+    routes:
+      - route: sagarkale.cfapps.io
+    buildpacks:
+      - https://github.com/cloudfoundry/java-buildpack.git
